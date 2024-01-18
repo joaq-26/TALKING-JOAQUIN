@@ -16,7 +16,7 @@
 
 #Packets
 import time
-import replit
+
 from random import *
 import sys
 import json
@@ -168,7 +168,7 @@ elif answer == "2":
   info = {'name':username,
           'password':password,
           'achieve':achievestat,
-          'armor':armorstat
+          'armor':armorstat,
           'weapon':weaponstat}
   
   json.dump( info, open( info['name']+".json", 'w' ) )
@@ -269,7 +269,7 @@ while 0==0:
     info = {'name':username,
             'password':password,
             'achieve':achievestat,
-            'armor':armorstat
+            'armor':armorstat,
             'weapon':weaponstat}
 
     
